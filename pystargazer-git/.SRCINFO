@@ -1,6 +1,6 @@
 pkgbase = python-pystargazer-git
 	pkgdesc = A flexible vtuber tracker.
-	pkgver = r1.e823757
+	pkgver = r117.cdedfbc
 	pkgrel = 1
 	url = https://github.com/suisei-cn/pystargazer
 	arch = any
@@ -14,6 +14,7 @@ pkgbase = python-pystargazer-git
 	depends = python-apscheduler
 	depends = python-feedparser
 	depends = python-dateutil
+	depends = python-mongo
 	source = git+https://github.com/suisei-cn/pystargazer.git
 	md5sums = SKIP
 

@@ -2,14 +2,15 @@
 
 pkgname=python-pystargazer-git
 _pkgname=pystargazer
-pkgver=r1.e823757
+pkgver=r117.cdedfbc
 pkgrel=1
 pkgdesc="A flexible vtuber tracker."
 arch=('any')
 url="https://github.com/suisei-cn/pystargazer"
 license=('MIT')
-depends=('python-uvloop' 'python-httpx' 'python-starlette' 'python-uvicorn' 'python-apscheduler' 'python-feedparser' 'python-dateutil')
+depends=('python-uvloop' 'python-httpx' 'python-starlette' 'python-uvicorn' 'python-apscheduler' 'python-feedparser' 'python-dateutil' 'python-mongo')
 makedepends=('python-setuptools' 'git')
+optdepends=()
 source=('git+https://github.com/suisei-cn/pystargazer.git')
 md5sums=('SKIP')
 
